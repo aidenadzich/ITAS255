@@ -1,0 +1,17 @@
+let heroes = [];
+heroes[0] = ["Barry", "Allen", 1998, "The Flash", true, 1000];
+heroes[1] = ["Oliver", "Queen", 1978, "Green Arrow", false, 2];
+heroes[2] = ["Daisy", "Johnson", 2005, "Quake", true, 1350];
+heroes[3] = ["Clint", "Barton", 1958, "Hawkeye", false, 200];
+heroes[4] = ["James", "Howlett", 1818, "Wolverine", true, 2000];
+heroes[5] = ["Tony", "Stark", 1968, "Ironman", false, 3];
+heroes[6] = ["Bruce", "Wayne", 1970, "Batman", false, 1];
+heroes[7] = ["Victor", "Shade", 1993, "Vision", true, 1800];
+heroes[8] = ["Peter", "Parker", 2002, "Spiderman", true, 2000];
+heroes[9] = ["Ororo", "Munroe", 1976, "Storm", true, 1200];
+heroes[10] = ["Anna Marie", "", 1982, "Rogue", true, 1500];
+heroes[11] = ["Eric", "O'Grady", 2007, "Antman", true, 800];
+heroes[12] = ["Natasha", "Romanov", 1983, "Black Widow", false, 12];
+heroes[13] = ["Ben", "Grimm", 1962, "Thing", true, 1000];
+heroes[14] = ["T'Challa", "", 1967, "Black Panther", false, 400];
+heroes[15] = ["Daniel", "Rand(-K'ai)", 1975, "Iron Fist", false, 2];

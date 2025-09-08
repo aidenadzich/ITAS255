@@ -1,0 +1,31 @@
+{
+  "datapoint": [
+    {
+      "name": "test",
+      "quantity": 3,
+      "belongs": true,
+      "pets": [
+        "cat",
+        "dog",
+        "turtle"
+      ],
+      "address": {
+        "city": "Ottawa",
+        "country": "CA"
+      }
+    },{
+      "name": "caterpillar",
+      "quantity": 9,
+      "belongs": false,
+      "pets": [
+        "human",
+        "giraffe",
+        "alligator"
+      ],
+      "address": {
+        "city": "Gatineau",
+        "country": "CA"
+      }
+    }
+  ]
+}

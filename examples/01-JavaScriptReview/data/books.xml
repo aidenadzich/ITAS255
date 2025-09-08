@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This is a comment to show how nodes work -->
+<bookstore>
+	<book category="cooking">
+		<title lang="en">Everyday Italian</title>
+		<author>Giada De Laurentiis</author>
+		<year>2005</year>
+		<price>30.00</price>
+	</book>
+	<book category="science fiction">
+		<title lang="en">Ender's Gmae</title>
+		<author>Orson Scott Card</author>
+		<year>1994</year>
+		<price>14.99</price>
+	</book> 
+	<book category="web">
+		<title>XML For Dummies</title>
+		<author>James McGovern</author>
+		<author>Per Bothner</author>
+		<author>jamie Linn</author>
+		<year>2013</year>
+		<price>49.99</price>
+	</book>
+</bookstore>

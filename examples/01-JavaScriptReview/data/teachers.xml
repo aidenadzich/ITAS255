@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<teachers>
+    <teacher>
+        <name>
+            <first>Allan</first>
+            <last>McDonald</last>
+        </name>
+        <department>Computer Science</department>
+        <office>B201-B</office>
+    </teacher>
+    <teacher>
+        <name>
+            <first>Mark</first>
+            <last>Molnar</last>
+        </name>
+        <department>English</department>
+        <office>B214-A</office>
+    </teacher>
+    <teacher>
+        <name>
+            <first>Sami</first>
+            <last>Nicola</last>
+        </name>
+        <department>Electronics</department>
+        <office>C216-E</office>
+    </teacher>
+    <teacher>
+        <name>
+            <first>Guy</first>
+            <last>Beaulieu</last>
+        </name>
+        <department>Math</department>
+        <office>D117-E</office>
+    </teacher>
+</teachers>
