@@ -15,3 +15,55 @@ heroes[12] = ["Natasha", "Romanov", 1983, "Black Widow", false, 12];
 heroes[13] = ["Ben", "Grimm", 1962, "Thing", true, 1000];
 heroes[14] = ["T'Challa", "", 1967, "Black Panther", false, 400];
 heroes[15] = ["Daniel", "Rand(-K'ai)", 1975, "Iron Fist", false, 2];
+
+class Person {
+    constructor(firstName, lastName, birthYear, occupation, isSuper, rate) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.birthYear = birthYear;
+        this.occupation = occupation;
+        this.isSuper = isSuper;
+        this.rate = rate;
+    }
+
+    getFullName() {
+        return `${this.firstName} ${this.lastName}`;
+    }
+
+    getNumYears() {
+        let currYear = new Date().getFullYear();
+        return currYear - this.birthYear;
+    }
+
+    getTotal() {
+        let years = this.getNumYears();
+        if (years > 50) {
+            return this.rate * 1.5 * years;
+        } else {
+            return this.rate * years;
+        }
+    }
+}
+
+let heroPerson = [];
+for (let i = 0; i < heroes.length; i++) {
+    heroPerson.push(new Person(...heroes[i]));
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+let leftDiv = document.querySelector("#theLeft");
+let rightDiv = document.querySelector("#theRight");
+
+for (let person of heroPerson) {
+    let paragraph = `
+        ${person.getFullName()} aka ${person.occupation} was born ${person.getNumYears()} years ago.<br/>
+        They are worth a total of: $${person.getTotal().toLocaleString()}<br/><br/>
+    `;
+
+    if (person.isSuper) {
+        rightDiv.innerHTML += paragraph;
+    } else {
+        leftDiv.innerHTML += paragraph;
+    }
+}
+});
