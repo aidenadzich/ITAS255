@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airports</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+    
+    <h1 class="text-xl font-bold my-4 text-center">Airports</h1>
+
+    <main class="max-w-6x1 mx-auto p-6">
+
+    <div class="flex flex-col items-center">
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-4 w-full">
+            <select id="contSel" class="rounded-lg border border-gray-300 px-4 py-2 focus:ring-2 focus:ring-blue-400">
+                <option value="">All</option>
+                <option value="africa">Africa</option>
+                <option value="asia">Asia</option>
+                <option value="europe">Europe</option>
+                <option value="northamerica">North America</option>
+                <option value="oceania">Oceania</option>
+                <option value="southamerica">South America</option>
+            </select>
+
+            <input
+                type="text"
+                id="airportCode"
+                maxlength="3"
+                placeholder="Airport Code"
+                class="rounded-lg border border-gray-300 px-4 py-2 focus:ring-2 focus:ring-blue-400 w-40"
+            >
+        </div>
+        <p id="error" class="text-red-600 font-semibold text-sm w-full text-center mt-2"></p>
+    </div>
+
+        <div id="airportList" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6"></div>
+
+    </main>
+
+    
+    <script type="module" src="./js/partF.js"></script>
+</body>
+
+
+</html>

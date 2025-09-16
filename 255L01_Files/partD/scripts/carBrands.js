@@ -1,46 +1,46 @@
-const brandStyles = {
+export const brandStyles = {
     acura: {
-        colors: ["#A2AAAD", "#FFFFFF"], // Acura silver → white
+        colors: ["#A2AAAD", "#FFFFFF"],
         logo: "acura.png"
     },
     alfaromeo: {
-        colors: ["#c22636", "#ffffff", "#01804f"], // Alfa Romeo red → white
+        colors: ["#c22636", "#ffffff", "#01804f"],
         logo: "alfaromeo.png"
     },
     astonmartin: {
-        colors: ["#01655c", "#FFFFFF"], // Aston Martin dark grey → white
+        colors: ["#01655c", "#FFFFFF"],
         logo: "astonmartin.png"
     },
     audi: {
-        colors: ["#f50537", "#FFFFFF", "#000000"], // Audi black → white
+        colors: ["#f50537", "#FFFFFF", "#000000"],
         logo: "audi.png"
     },
     bmw: {
-        colors: ["#2E9FFF", "#FFFFFF", "#000000"], // BMW blue → white → black
+        colors: ["#2E9FFF", "#FFFFFF", "#000000"],
         logo: "bmw.png"
     },
     bentley: {
-        colors: ["#52756e", "#FFFFFF", "#000000"], // Bentley dark green → white
+        colors: ["#52756e", "#FFFFFF", "#000000"],
         logo: "bentley.png"
     },
     cadillac: {
-        colors: ["#9E1B32", "#e4e1ca", "#2d3460"], // Cadillac red → white
+        colors: ["#9E1B32", "#e4e1ca", "#2d3460"],
         logo: "cadillac.png"    
     },
     chevrolet: {
-        colors: ["#e1bc6e", "#FFFFFF", "#bdc2c8"], // Chevrolet gold → white → dark blue
+        colors: ["#e1bc6e", "#FFFFFF", "#bdc2c8"],
         logo: "chevrolet.png"
     },
     daewoo: {
-        colors: ["#0045a0", "#FFFFFF"], // Daewoo blue → white
+        colors: ["#0045a0", "#FFFFFF"],
         logo: "daewoo.png"
     },
     dodge: {
-        colors: ["#Cf2d26", "#b6bdc1", "#434c53"], // Dodge red → white → black
+        colors: ["#Cf2d26", "#b6bdc1", "#434c53"],
         logo: "dodge.png"
     },
     ferrari: {
-        colors: ["#fff200", "#ffffff", "#ed1c24",  "#ffffff", "#009a4e",], // Ferrari yellow → white → black
+        colors: ["#fff200", "#ffffff", "#ed1c24",  "#ffffff", "#009a4e",],
         logo: "ferrari.png"
     },
     ford: {

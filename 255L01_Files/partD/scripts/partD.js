@@ -1,15 +1,17 @@
+import { brandStyles } from "./carBrands.js";
+import { atoc } from "./countries.js";
+ 
 let cars = JSON.parse(jsonString);
 
 cars.sort((a, b) => {
-    if (a.make < b.make) return -1;
-    if (a.make > b.make) return 1;
-    
-    if (a.model < b.model) return -1;
-    if (a.model > b.model) return 1;
-    
-    return 0;
-});
+  if (a.make < b.make) return -1;
+  if (a.make > b.make) return 1;
 
+  if (a.model < b.model) return -1;
+  if (a.model > b.model) return 1;
+
+  return 0;
+});
 
 
 
@@ -19,17 +21,16 @@ let carGrid = document.querySelector("#carsList");
 cars.forEach(car => {
   let card = document.createElement("div");
 
-  carMake = car.make.replace(/[ -]/g, '');
+  let carMake = car.make.replace(/[ -]/g, '');
   carMake = carMake.toLowerCase();
 
   let brand = brandStyles[carMake] || {
-    colors: ["#CCCCCC", "#FFFFFF"], // fallback gradient
+    colors: ["#CCCCCC", "#FFFFFF"],
     logo: "logos/default.png"
   };
 
   let countryCode = atoc[car.country];
 
-  // build gradient (diagonal top-left → bottom-right)
   let gradient = `linear-gradient(135deg, ${brand.colors.join(", ")})`;
     card.style.background = gradient;
 
@@ -47,7 +48,7 @@ cars.forEach(car => {
       <p class="text-sm"><span class="font-medium">Country:</span> ${car.country} </p>
       <p class="text-sm"><span class="font-medium">VIN:</span> ${car.vin}</p>
     </div>
-    <img src="/255L01_Files/partD/carLogos/${brand.logo}" alt="${carMake} logo"
+    <img src="/255L01_Files/partD/carLogos/${brand.logo}" alt="${car.make} logo"
          class="w-16 h-16 object-contain opacity-80 absolute right-4 top-4" />
     <img src="https://flagsapi.com/${countryCode}/flat/64.png"
          class="w12 h-12 object-contain absolute right-6 bottom-4 rounded outline-solid" />

@@ -51,19 +51,19 @@ for (let i = 0; i < heroes.length; i++) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-let leftDiv = document.querySelector("#theLeft");
-let rightDiv = document.querySelector("#theRight");
+    let leftDiv = document.querySelector("#theLeft");
+    let rightDiv = document.querySelector("#theRight");
 
-for (let person of heroPerson) {
-    let paragraph = `
-        ${person.getFullName()} aka ${person.occupation} was born ${person.getNumYears()} years ago.<br/>
-        They are worth a total of: $${person.getTotal().toLocaleString()}<br/><br/>
-    `;
+    for (let person of heroPerson) {
+        let paragraph = `
+            ${person.getFullName()} aka ${person.occupation} was born ${person.getNumYears()} years ago.<br/>
+            They are worth a total of: $${person.getTotal().toLocaleString()}<br/><br/>
+        `;
 
-    if (person.isSuper) {
-        rightDiv.innerHTML += paragraph;
-    } else {
-        leftDiv.innerHTML += paragraph;
+        if (person.isSuper) {
+            rightDiv.innerHTML += paragraph;
+        } else {
+            leftDiv.innerHTML += paragraph;
+        }
     }
-}
 });

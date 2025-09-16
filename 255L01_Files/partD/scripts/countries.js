@@ -1,4 +1,6 @@
-var atoc = {};
+// Giant list of country written by AI
+
+export const atoc = {};
 atoc["Afghanistan"] = "AF";
 atoc["Albania"] = "AL";
 atoc["Algeria"] = "DZ";
@@ -81,6 +83,7 @@ atoc["Iraq"] = "IQ";
 atoc["Ireland"] = "IE";
 atoc["Israel"] = "IL";
 atoc["Italy"] = "IT";
+atoc["Ivory Coast"] = "CI";
 atoc["Jamaica"] = "JM";
 atoc["Japan"] = "JP";
 atoc["Jordan"] = "JO";
