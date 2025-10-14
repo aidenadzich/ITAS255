@@ -1,0 +1,2 @@
+This is the basic file that gets returned
+It should be returned with the proper MIME type for text files
