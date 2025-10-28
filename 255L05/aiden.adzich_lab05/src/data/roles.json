@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "role": "Student",
+    "description": "An individual enrolled in an educational institution pursuing academic studies or professional training. Responsible for completing coursework, participating in classes, and meeting academic requirements."
+  },
+  {
+    "id": 2,
+    "role": "Instructor",
+    "description": "A faculty member responsible for teaching courses, developing curriculum, assessing student performance, and providing academic guidance. Typically holds relevant advanced degrees in their field of expertise."
+  },
+  {
+    "id": 3,
+    "role": "Chair",
+    "description": "Department head who oversees academic programs, faculty, and administrative operations within their department. Responsible for curriculum development, faculty recruitment, and departmental budget management."
+  },
+  {
+    "id": 4,
+    "role": "Dean",
+    "description": "Senior academic administrator responsible for overseeing multiple departments or an entire college/school within an institution. Manages strategic planning, budget allocation, and academic policy development."
+  },
+  {
+    "id": 5,
+    "role": "Employer",
+    "description": "Organization or individual that hires and manages employees, providing compensation for work performed. Responsible for workplace policies, professional development, and maintaining employment standards."
+  },
+  {
+    "id": 6,
+    "role": "Insurance",
+    "description": "Entity providing coverage and financial protection against specified risks, including health, liability, or property damage. Processes claims and manages benefit distributions according to policy terms."
+  }
+]

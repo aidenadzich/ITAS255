@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "role": 1,
+    "first_name": "Amanda",
+    "last_name": "Lin",
+    "email": "a.lin@university.edu"
+  },
+  {
+    "id": 2,
+    "role": 1,
+    "first_name": "Wade",
+    "last_name": "Waters",
+    "email": "w.waters@university.edu"
+  },
+  {
+    "id": 3,
+    "role": 1,
+    "first_name": "Paige",
+    "last_name": "Turner",
+    "email": "p.turner@university.edu"
+  },
+  {
+    "id": 4,
+    "role": 1,
+    "first_name": "Justin",
+    "last_name": "Case",
+    "email": "j.case@university.edu"
+  },
+  {
+    "id": 5,
+    "role": 1,
+    "first_name": "Anita",
+    "last_name": "Bath",
+    "email": "a.bath@university.edu"
+  },
+  {
+    "id": 6,
+    "role": 1,
+    "first_name": "Will",
+    "last_name": "Power",
+    "email": "w.power@university.edu"
+  },
+  {
+    "id": 7,
+    "role": 1,
+    "first_name": "Crystal",
+    "last_name": "Ball",
+    "email": "c.ball@university.edu"
+  },
+  {
+    "id": 8,
+    "role": 1,
+    "first_name": "Ray",
+    "last_name": "Ning",
+    "email": "r.ning@university.edu"
+  },
+  {
+    "id": 9,
+    "role": 1,
+    "first_name": "Shanda",
+    "last_name": "Lear",
+    "email": "s.lear@university.edu"
+  },
+  {
+    "id": 10,
+    "role": 1,
+    "first_name": "Al",
+    "last_name": "Beback",
+    "email": "a.beback@university.edu"
+  },
+  {
+    "id": 11,
+    "role": 1,
+    "first_name": "Holly",
+    "last_name": "Wood",
+    "email": "h.wood@university.edu"
+  },
+  {
+    "id": 12,
+    "role": 1,
+    "first_name": "Miles",
+    "last_name": "Ahead",
+    "email": "m.ahead@university.edu"
+  },
+  {
+    "id": 13,
+    "role": 2,
+    "first_name": "Ima",
+    "last_name": "Teacher",
+    "email": "i.teacher@faculty.university.edu"
+  },
+  {
+    "id": 14,
+    "role": 2,
+    "first_name": "Les",
+    "last_name": "Moore",
+    "email": "l.moore@faculty.university.edu"
+  },
+  {
+    "id": 15,
+    "role": 2,
+    "first_name": "Robin",
+    "last_name": "Banks",
+    "email": "r.banks@faculty.university.edu"
+  },
+  {
+    "id": 16,
+    "role": 2,
+    "first_name": "Phil",
+    "last_name": "Ossopher",
+    "email": "p.ossopher@faculty.university.edu"
+  },
+  {
+    "id": 17,
+    "role": 3,
+    "first_name": "Chair",
+    "last_name": "Manning",
+    "email": "c.manning@chairs.university.edu"
+  },
+  {
+    "id": 18,
+    "role": 3,
+    "first_name": "Otto",
+    "last_name": "Matic",
+    "email": "o.matic@chairs.university.edu"
+  },
+  {
+    "id": 19,
+    "role": 4,
+    "first_name": "Dean",
+    "last_name": "Lighter",
+    "email": "d.lighter@dean.university.edu"
+  },
+  {
+    "id": 20,
+    "role": 4,
+    "first_name": "Maxine",
+    "last_name": "Power",
+    "email": "m.power@dean.university.edu"
+  },
+  {
+    "id": 21,
+    "role": 5,
+    "first_name": "Bill",
+    "last_name": "Yoderself",
+    "email": "b.yoderself@company.com"
+  },
+  {
+    "id": 22,
+    "role": 5,
+    "first_name": "Rich",
+    "last_name": "Mann",
+    "email": "r.mann@enterprise.com"
+  },
+  {
+    "id": 23,
+    "role": 5,
+    "first_name": "Makin",
+    "last_name": "Money",
+    "email": "m.money@corporation.com"
+  },
+  {
+    "id": 24,
+    "role": 6,
+    "first_name": "Claire",
+    "last_name": "Voyant",
+    "email": "c.voyant@insurance.com"
+  },
+  {
+    "id": 25,
+    "role": 6,
+    "first_name": "Sue",
+    "last_name": "Pervisor",
+    "email": "s.pervisor@insurance.com"
+  }
+]

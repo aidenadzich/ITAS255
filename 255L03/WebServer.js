@@ -2,7 +2,6 @@ import http from 'node:http';
 import url from 'node:url';
 import path from 'node:path';
 import fs from 'node:fs';
-// TODO: 0. Create web server
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 const PORT = 8888;
@@ -39,13 +38,14 @@ const logEvent = (msg) => {
 const getFile = (res, filename, ext, status) => {
     fs.readFile(filename, (err, content) => {
         if (!err) {
+            res.setHeader("Content-Type", ext)
             res.writeHead(status, {
-                "Content-Type": ext,
                 "Content-Length": content.length,
                 "ServerName": "Aiden Adzich",
                 "ReasonWhy": "ITAS 255 - Lab 3"
             });
             res.end(content);
+            logEvent(`Response: ${JSON.stringify(res.getHeaders())}`);
         } else {
             console.error(`Server Error: could not read file ${filename}`);
             res.writeHead(500, {
@@ -53,6 +53,7 @@ const getFile = (res, filename, ext, status) => {
             });
             res.end("Major error occured on server, please contact support.");
         }
+        
     });
 }
 
@@ -76,14 +77,21 @@ http.createServer((req, res) => {
     fileName = pathObj.base || DEFAULT_FILE;
     ext = pathObj.ext || DEFAULT_EXT;
 
+    
+
     if (EXTENSIONS[ext]) {
+        if (pathName === "testing") {
+            let DEFAULT_TEST = 'testfile.html';
+            let DEFAULT_TEST_EXT = '.html';
+            fileName = pathObj.base || DEFAULT_TEST;
+            ext = pathObj.ext || DEFAULT_TEST_EXT;
+
+            let testPath = path.join(TESTROOT, fileName)
+            getFile(res, testPath, EXTENSIONS[ext], 200);
+            return;
+        }
         let localPath = path.join(WEBROOT, pathName, fileName);
         fs.access(localPath, fs.F_OK, err => {
-            if (pathName === "testing") {
-                let testPath = path.join(TESTROOT, "testfile.html")
-                getFile(res, testPath, 'text/html', 200);
-                return;
-            }
             if (err) {
                 let errorPath = path.join(ERRROOT, "404.html");
                 getFile(res, errorPath, 'text/html', 404);

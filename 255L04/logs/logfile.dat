@@ -1,0 +1,52 @@
+[2025-10-21 01:06:33.572 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:06:49.028 PM] error: 	Error 400 sent for file /form.htmla
+[2025-10-21 01:06:49.100 PM] error: 	Error 400 sent for file /favicon.ico
+[2025-10-21 01:06:51.684 PM] error: 	Error 400 sent for file /favicon.ico
+[2025-10-21 01:07:13.758 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:08:31.238 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:09:07.213 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:09:16.031 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:09:22.542 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:09:45.616 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:10:10.434 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:10:39.351 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:11:57.258 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:12:10.080 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:12:16.125 PM] error: 	NaN is not a number
+[2025-10-21 01:12:37.398 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:12:38.493 PM] error: 	h is not a number
+[2025-10-21 01:14:13.964 PM] info: 	Successfully got Person with ID: 123
+[2025-10-21 01:14:18.269 PM] info: 	Successfully got Person with ID: 39
+[2025-10-21 01:14:22.555 PM] error: 	Person ID 999 not found
+[2025-10-21 01:14:29.585 PM] error: 	Person ID Chavez not found
+[2025-10-21 01:14:36.526 PM] error: 	Person ID chavez not found
+[2025-10-21 01:14:47.561 PM] error: 	Last name Chavez not found
+[2025-10-21 01:14:50.734 PM] info: 	Successfully got Person(s) with last name: undefined
+[2025-10-21 01:15:07.041 PM] error: 	Last name BROWN not found
+[2025-10-21 01:15:09.119 PM] info: 	Successfully got Person(s) with last name: undefined
+[2025-10-21 01:15:51.409 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:15:54.293 PM] info: 	Successfully got Person(s) with last name: undefined
+[2025-10-21 01:16:39.903 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:16:53.828 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:17:09.370 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:17:16.569 PM] info: 	Successfully got Person(s) with last name: white
+[2025-10-21 01:17:19.955 PM] info: 	Successfully got Person(s) with last name: BROWN
+[2025-10-21 01:17:22.991 PM] error: 	Last name ZiP not found
+[2025-10-21 01:17:24.488 PM] info: 	Successfully got Person(s) with last name: BROWN
+[2025-10-21 01:17:32.586 PM] info: 	Successfully calculated 4
+[2025-10-21 01:17:36.296 PM] info: 	Successfully calculated 5
+[2025-10-21 01:17:38.623 PM] info: 	Successfully calculated -2
+[2025-10-21 01:17:42.703 PM] error: 	-cat is not a number
+[2025-10-21 01:26:36.419 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:26:56.152 PM] info: 	Successfully got Person with ID: 13
+[2025-10-21 01:27:00.689 PM] error: 	Person ID 300 not found
+[2025-10-21 01:27:16.833 PM] info: 	Successfully got Person(s) with last name: Murphy
+[2025-10-21 01:27:26.992 PM] info: 	Successfully got Person(s) with last name: WHITE
+[2025-10-21 01:27:33.299 PM] info: 	Successfully got Person(s) with last name: brown
+[2025-10-21 01:27:39.284 PM] error: 	Last name a not found
+[2025-10-21 01:28:08.106 PM] info: 	Successfully calculated 5
+[2025-10-21 01:28:12.530 PM] error: 	a is not a number
+[2025-10-21 01:34:25.992 PM] info: 	Server Listening on Port 8765
+[2025-10-21 01:34:33.988 PM] error: 	Last name a not found
+[2025-10-21 01:34:55.076 PM] info: 	Successfully got Person(s) with last name: Chavez
+[2025-10-22 08:47:04.983 AM] info: 	Server Listening on Port 8765

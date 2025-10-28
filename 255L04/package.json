@@ -1,0 +1,21 @@
+{
+  "name": "express-lab04",
+  "version": "0.0.1",
+  "description": "Lab 4 Express Server",
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "license": "ISC",
+  "author": "Aiden Adzich",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "winston": "^3.18.3"
+  }
+}

@@ -1,0 +1,323 @@
+const people = [{
+    "id": 0,
+    "firstName": "Mitchell",
+    "lastName": "Chavez",
+    "email": "mitchell.chavez@example.com",
+    "dob": "1984-01-26",
+    "cell": "(689)-549-9412",
+    "nat": "US"
+}, {
+    "id": 11,
+    "firstName": "Esther",
+    "lastName": "Ortiz",
+    "email": "esther.ortiz@example.com",
+    "dob": "1962-11-01",
+    "cell": "(734)-420-8837",
+    "nat": "US"
+}, {
+    "id": 12,
+    "firstName": "Mia",
+    "lastName": "White",
+    "email": "mia.white@example.com",
+    "dob": "1960-01-08",
+    "cell": "368-813-0607",
+    "nat": "CA"
+}, {
+    "id": 13,
+    "firstName": "Virgil",
+    "lastName": "Sims",
+    "email": "virgil.sims@example.com",
+    "dob": "1990-04-28",
+    "cell": "(710)-209-3915",
+    "nat": "US"
+}, {
+    "id": 14,
+    "firstName": "Zoe",
+    "lastName": "Ouellet",
+    "email": "zoe.ouellet@example.com",
+    "dob": "1987-03-27",
+    "cell": "425-180-9778",
+    "nat": "CA"
+}, {
+    "id": 51,
+    "firstName": "Victor",
+    "lastName": "Morin",
+    "email": "victor.morin@example.com",
+    "dob": "1982-12-10",
+    "cell": "697-394-0621",
+    "nat": "CA"
+}, {
+    "id": 16,
+    "firstName": "Michelle",
+    "lastName": "Jordan",
+    "email": "michelle.jordan@example.com",
+    "dob": "1995-02-27",
+    "cell": "(544)-159-6119",
+    "nat": "US"
+}, {
+    "id": 72,
+    "firstName": "Hunter",
+    "lastName": "Gill",
+    "email": "hunter.gill@example.com",
+    "dob": "1990-09-08",
+    "cell": "436-407-1238",
+    "nat": "CA"
+}, {
+    "id": 82,
+    "firstName": "Isabella",
+    "lastName": "Chow",
+    "email": "isabella.chow@example.com",
+    "dob": "1977-07-04",
+    "cell": "112-127-7808",
+    "nat": "CA"
+}, {
+    "id": 92,
+    "firstName": "Earl",
+    "lastName": "Ryan",
+    "email": "earl.ryan@example.com",
+    "dob": "1961-04-25",
+    "cell": "0767-605-352",
+    "nat": "GB"
+}, {
+    "id": 10,
+    "firstName": "Kate",
+    "lastName": "Murphy",
+    "email": "kate.murphy@example.com",
+    "dob": "1954-09-05",
+    "cell": "0723-800-551",
+    "nat": "GB"
+}, {
+    "id": 121,
+    "firstName": "Roy",
+    "lastName": "Martinez",
+    "email": "roy.martinez@example.com",
+    "dob": "1967-02-15",
+    "cell": "0736-957-114",
+    "nat": "GB"
+}, {
+    "id": 122,
+    "firstName": "Holly",
+    "lastName": "Thomas",
+    "email": "holly.thomas@example.com",
+    "dob": "1965-12-13",
+    "cell": "0779-854-639",
+    "nat": "GB"
+}, {
+    "id": 123,
+    "firstName": "Virgil",
+    "lastName": "Campbell",
+    "email": "virgil.campbell@example.com",
+    "dob": "1971-06-05",
+    "cell": "(272)-188-8378",
+    "nat": "US"
+}, {
+    "id": 124,
+    "firstName": "Felix",
+    "lastName": "Roy",
+    "email": "felix.roy@example.com",
+    "dob": "1968-03-19",
+    "cell": "352-608-0155",
+    "nat": "CA"
+}, {
+    "id": 15,
+    "firstName": "Alexis",
+    "lastName": "Bélanger",
+    "email": "alexis.belanger@example.com",
+    "dob": "1994-01-09",
+    "cell": "261-622-3655",
+    "nat": "CA"
+}, {
+    "id": 316,
+    "firstName": "Ken",
+    "lastName": "Parker",
+    "email": "ken.parker@example.com",
+    "dob": "1990-08-23",
+    "cell": "(140)-147-6836",
+    "nat": "US"
+}, {
+    "id": 137,
+    "firstName": "Amy",
+    "lastName": "Pelletier",
+    "email": "amy.pelletier@example.com",
+    "dob": "1988-02-10",
+    "cell": "420-757-0660",
+    "nat": "CA"
+}, {
+    "id": 138,
+    "firstName": "Megan",
+    "lastName": "Martin",
+    "email": "megan.martin@example.com",
+    "dob": "1958-08-16",
+    "cell": "132-552-8025",
+    "nat": "CA"
+}, {
+    "id": 139,
+    "firstName": "Alexis",
+    "lastName": "White",
+    "email": "alexis.white@example.com",
+    "dob": "1952-06-06",
+    "cell": "888-373-0649",
+    "nat": "CA"
+}, {
+    "id": 200,
+    "firstName": "Regina",
+    "lastName": "Williams",
+    "email": "regina.williams@example.com",
+    "dob": "1970-06-19",
+    "cell": "(017)-587-2658",
+    "nat": "US"
+}, {
+    "id": 201,
+    "firstName": "Maya",
+    "lastName": "Brown",
+    "email": "maya.brown@example.com",
+    "dob": "1958-09-25",
+    "cell": "0738-833-234",
+    "nat": "GB"
+}, {
+    "id": 202,
+    "firstName": "Megan",
+    "lastName": "Novak",
+    "email": "megan.novak@example.com",
+    "dob": "1967-02-27",
+    "cell": "421-481-2353",
+    "nat": "CA"
+}, {
+    "id": 203,
+    "firstName": "Leroy",
+    "lastName": "Clark",
+    "email": "leroy.clark@example.com",
+    "dob": "1989-03-11",
+    "cell": "0736-117-276",
+    "nat": "GB"
+}, {
+    "id": 204,
+    "firstName": "Anthony",
+    "lastName": "Bowman",
+    "email": "anthony.bowman@example.com",
+    "dob": "1950-03-14",
+    "cell": "0745-808-284",
+    "nat": "GB"
+}, {
+    "id": 205,
+    "firstName": "William",
+    "lastName": "Lowe",
+    "email": "william.lowe@example.com",
+    "dob": "1945-03-05",
+    "cell": "(710)-139-8444",
+    "nat": "US"
+}, {
+    "id": 216,
+    "firstName": "Rafael",
+    "lastName": "Davis",
+    "email": "rafael.davis@example.com",
+    "dob": "1973-10-30",
+    "cell": "(102)-910-3358",
+    "nat": "US"
+}, {
+    "id": 227,
+    "firstName": "Charles",
+    "lastName": "Campbell",
+    "email": "charles.campbell@example.com",
+    "dob": "1979-01-02",
+    "cell": "904-509-6435",
+    "nat": "CA"
+}, {
+    "id": 283,
+    "firstName": "Connor",
+    "lastName": "Little",
+    "email": "connor.little@example.com",
+    "dob": "1951-04-11",
+    "cell": "(462)-049-2069",
+    "nat": "US"
+}, {
+    "id": 292,
+    "firstName": "Phoebe",
+    "lastName": "Stewart",
+    "email": "phoebe.stewart@example.com",
+    "dob": "1968-03-03",
+    "cell": "0775-205-452",
+    "nat": "GB"
+}, {
+    "id": 30,
+    "firstName": "Bob",
+    "lastName": "Robinson",
+    "email": "bob.robinson@example.com",
+    "dob": "1962-01-21",
+    "cell": "(966)-472-5604",
+    "nat": "US"
+}, {
+    "id": 31,
+    "firstName": "Zachary",
+    "lastName": "Smith",
+    "email": "zachary.smith@example.com",
+    "dob": "1975-01-03",
+    "cell": "275-118-4703",
+    "nat": "CA"
+}, {
+    "id": 32,
+    "firstName": "Scarlett",
+    "lastName": "Sims",
+    "email": "scarlett.sims@example.com",
+    "dob": "1993-07-15",
+    "cell": "(172)-804-7904",
+    "nat": "US"
+}, {
+    "id": 33,
+    "firstName": "Julie",
+    "lastName": "Stanley",
+    "email": "julie.stanley@example.com",
+    "dob": "1951-11-28",
+    "cell": "(429)-474-6501",
+    "nat": "US"
+}, {
+    "id": 34,
+    "firstName": "Benjamin",
+    "lastName": "Mackay",
+    "email": "benjamin.mackay@example.com",
+    "dob": "1983-12-12",
+    "cell": "681-145-6605",
+    "nat": "CA"
+}, {
+    "id": 35,
+    "firstName": "Isaac",
+    "lastName": "Burton",
+    "email": "isaac.burton@example.com",
+    "dob": "1966-02-02",
+    "cell": "(777)-659-7267",
+    "nat": "US"
+}, {
+    "id": 36,
+    "firstName": "Ronnie",
+    "lastName": "Stewart",
+    "email": "ronnie.stewart@example.com",
+    "dob": "1984-06-29",
+    "cell": "0782-074-874",
+    "nat": "GB"
+}, {
+    "id": 37,
+    "firstName": "Dylan",
+    "lastName": "Singh",
+    "email": "dylan.singh@example.com",
+    "dob": "1970-04-29",
+    "cell": "812-079-9647",
+    "nat": "CA"
+}, {
+    "id": 38,
+    "firstName": "Alexis",
+    "lastName": "Scott",
+    "email": "alexis.scott@example.com",
+    "dob": "1947-12-02",
+    "cell": "833-421-2572",
+    "nat": "CA"
+}, {
+    "id": 39,
+    "firstName": "Gilbert",
+    "lastName": "Bradley",
+    "email": "gilbert.bradley@example.com",
+    "dob": "1983-07-24",
+    "cell": "(595)-723-7480",
+    "nat": "US"
+}];
+
+export default people;

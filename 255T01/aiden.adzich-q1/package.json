@@ -1,0 +1,12 @@
+{
+  "name": "255t01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aiden Adzich",
+  "license": "ISC",
+  "description": "ITAS 255 Test 1",
+  "type": "module"
+}

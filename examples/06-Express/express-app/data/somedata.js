@@ -1,0 +1,22 @@
+const mydata = [{"id":0,"first_name":"Martino","last_name":"McCrum","address":"82791 Westend Way","city":"Lijiaxiang"},
+{"id":1,"first_name":"Shaun","last_name":"Monini","address":"61 Debra Avenue","city":"Bārkhān"},
+{"id":2,"first_name":"Anetta","last_name":"Jaggar","address":"0 Shelley Pass","city":"Sonsón"},
+{"id":3,"first_name":"Alfredo","last_name":"Soff","address":"5067 Main Trail","city":"Shanling"},
+{"id":4,"first_name":"La verne","last_name":"Terbruggen","address":"3649 Corry Hill","city":"Talpe"},
+{"id":5,"first_name":"Odele","last_name":"Penwright","address":"6220 Eliot Avenue","city":"Tân Phú"},
+{"id":6,"first_name":"Bettye","last_name":"Silmon","address":"844 Scofield Park","city":"Botigues"},
+{"id":7,"first_name":"Alberto","last_name":"Pendred","address":"3674 Columbus Lane","city":"Bamusso"},
+{"id":8,"first_name":"Amandie","last_name":"Kynman","address":"54 Fulton Junction","city":"Sikonge"},
+{"id":9,"first_name":"Dewitt","last_name":"Roke","address":"5 Iowa Hill","city":"Sevlievo"},
+{"id":10,"first_name":"Aleksandr","last_name":"Frend","address":"3665 Nancy Crossing","city":"Kuala Lumpur"},
+{"id":11,"first_name":"Ashley","last_name":"Eastcott","address":"198 Lotheville Pass","city":"Médanos"},
+{"id":12,"first_name":"Karoly","last_name":"Giacomo","address":"582 Hanover Drive","city":"Santander"},
+{"id":13,"first_name":"Cristin","last_name":"Bartalin","address":"3 Charing Cross Point","city":"Rangmanten"},
+{"id":14,"first_name":"Jade","last_name":"Backshell","address":"9424 Prairie Rose Point","city":"Tanjungrejo Lor"},
+{"id":15,"first_name":"Trip","last_name":"Manshaw","address":"4 Shelley Circle","city":"Pospelikha"},
+{"id":16,"first_name":"Lura","last_name":"Santostefano.","address":"471 Lukken Street","city":"Namerikawa"},
+{"id":17,"first_name":"Selby","last_name":"Lutwyche","address":"7382 Crest Line Trail","city":"Vodstroy"},
+{"id":18,"first_name":"Lita","last_name":"Monni","address":"20707 Lakewood Gardens Place","city":"Sindangrasa"},
+{"id":19,"first_name":"Darda","last_name":"Jankin","address":"075 Oak Lane","city":"Hedong"}];
+
+export default mydata;
