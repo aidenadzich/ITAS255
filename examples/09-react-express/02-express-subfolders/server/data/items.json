@@ -1,0 +1,22 @@
+[
+{"id":0,"name":"Coca-Cola","category":"Beverages","size":"20 oz","price":2.49,"inStock":true},
+{"id":1,"name":"Doritos","category":"Snacks","size":"9.25 oz","price":4.99,"inStock":true},
+{"id":2,"name":"Snickers","category":"Candy","size":"1.86 oz","price":1.79,"inStock":true},
+{"id":3,"name":"Red Bull","category":"Beverages","size":"8.4 oz","price":3.99,"inStock":true},
+{"id":4,"name":"Marlboro Cigarettes","category":"Tobacco","size":"20 pack","price":8.99,"inStock":true},
+{"id":5,"name":"Slurpee","category":"Beverages","size":"32 oz","price":2.99,"inStock":true},
+{"id":6,"name":"Hot Dog","category":"Fresh Food","size":"1 count","price":2.49,"inStock":true},
+{"id":7,"name":"Chips Ahoy","category":"Snacks","size":"13 oz","price":4.49,"inStock":true},
+{"id":8,"name":"Monster Energy","category":"Beverages","size":"16 oz","price":3.99,"inStock":true},
+{"id":9,"name":"Slim Jim","category":"Snacks","size":"0.97 oz","price":1.99,"inStock":true},
+{"id":10,"name":"Tylenol","category":"Medicine","size":"24 ct","price":6.99,"inStock":true},
+{"id":11,"name":"Beef Jerky","category":"Snacks","size":"3.25 oz","price":7.99,"inStock":true},
+{"id":12,"name":"Lottery Ticket","category":"Gaming","size":"1 count","price":2.00,"inStock":true},
+{"id":13,"name":"Coffee","category":"Beverages","size":"16 oz","price":1.99,"inStock":true},
+{"id":14,"name":"Newspaper","category":"Media","size":"1 count","price":2.50,"inStock":true},
+{"id":15,"name":"Ice Cream Bar","category":"Frozen","size":"4 oz","price":2.99,"inStock":true},
+{"id":16,"name":"Gum","category":"Candy","size":"14 pieces","price":1.49,"inStock":true},
+{"id":17,"name":"Phone Charger","category":"Electronics","size":"1 count","price":12.99,"inStock":true},
+{"id":18,"name":"Hand Sanitizer","category":"Health","size":"2 oz","price":3.99,"inStock":true},
+{"id":19,"name":"Potato Chips","category":"Snacks","size":"2.5 oz","price":1.99,"inStock":true}
+]
